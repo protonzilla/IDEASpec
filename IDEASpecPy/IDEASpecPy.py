@@ -1,17 +1,6 @@
-from scipy.signal import savgol_filter
-import matplotlib.pyplot as plt
 import numpy as np
-import pandas as pd
 from scipy.signal import savgol_filter
 from scipy.optimize import curve_fit #see the following link for info on curve_fit
-import matplotlib.cm as cm
-import matplotlib.pyplot as plt
-import numpy as np
-import pandas as pd
-import datetime
-#import matplotlib.colors 
-import matplotlib.cm as cm
-from scipy.signal import savgol_filter
 
 
 wavelengths = [475,488,505,520,535,545]
