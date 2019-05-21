@@ -12,7 +12,7 @@ Imports System.IO
 Friend Class DMK_v1
     Inherits System.Windows.Forms.Form ' must be first (stupid VB...)
     Dim invert_raw As Integer = 1 'placve -1 here to invert the raw data (i.e. raw data will be multipolied by this)
-    Dim version As String = "Jan_21_2018_AK"
+    Dim version As String = "WASP version"
     Dim plot_data_point As Integer = True
 
     Dim program_directory As String = Environment.CurrentDirectory
